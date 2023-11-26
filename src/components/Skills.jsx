@@ -1,4 +1,5 @@
-import Banner from '../assets/images/skills.avif'
+import Banner from '../assets/images/skills1.png'
+import Banner2 from '../assets/images/skills2.png'
 export function Skills() {
     
     return (
@@ -8,6 +9,11 @@ export function Skills() {
         <div className="col-lg-12">
             <p>
                 <img src={Banner} alt=""/>
+            </p>
+        </div>
+        <div className="col-lg-12">
+            <p>
+                <img src={Banner2} alt=""/>
             </p>
         </div>
     </div> 
