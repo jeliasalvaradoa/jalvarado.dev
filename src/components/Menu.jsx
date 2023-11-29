@@ -41,8 +41,8 @@ export function Menu() {
         <Navbar.Toggle />
       </Navbar.Header>
 
-      <Navbar.Collapse style={{ flexWrap: 'nowrap' }}>
-        <Nav>
+      <Navbar.Collapse >
+        <Nav className="mr-auto">
           <NavItem href="#" eventKey={1}>
             Inicio
           </NavItem>

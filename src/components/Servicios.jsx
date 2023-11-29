@@ -22,7 +22,7 @@ export function Servicios() {
             </div>
             <div className="col-sm-6 col-md-3">
                 <h3 className="text-center">API REST</h3>
-                <p className="text-start">Como desarrollador de API REST con habilidades en JavaScript, Node.js, React.js, Next.js y base de datos realcionales como Postgres y Mysql, puedo crear interfaces de programación de aplicaciones robustas y eficientes para tu aplicación. Desde la planificación hasta la implementación, me aseguro de que tus servicios web sean escalables, seguros y cumplan con los estándares modernos.</p>
+                <p className="text-start">Como desarrollador de API REST con habilidades en JavaScript, Node.js, React.js, Next.js y base de datos relacionales como Postgres y Mysql, puedo crear interfaces de programación de aplicaciones robustas y eficientes para tu aplicación. Desde la planificación hasta la implementación, me aseguro de que tus servicios web sean escalables, seguros y cumplan con los estándares modernos.</p>
             </div>
             <div className="col-sm-6 col-md-3">
                 <h3 className="text-center">SEO &amp; SEM</h3>
