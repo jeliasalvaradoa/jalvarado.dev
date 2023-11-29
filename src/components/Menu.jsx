@@ -1,6 +1,8 @@
-import {useState, useEffect } from 'react'
-export function Menu() {
+import { useState, useEffect } from 'react';
+import { Navbar, Nav, NavItem, } from 'react-bootstrap';
+import '../assets/css/menu.css';
 
+export function Menu() {
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
@@ -17,7 +19,7 @@ export function Menu() {
         setIsSticky(false);
       }
 
-         parallaxElements.forEach((element) => {
+      parallaxElements.forEach((element) => {
         const speed = element.getAttribute('parallax-speed');
         if (speed) {
           const backgroundPos = `center -${scrollY / speed}px`;
@@ -25,7 +27,6 @@ export function Menu() {
         }
       });
     };
-     
 
     window.addEventListener('scroll', handleScroll);
 
@@ -34,45 +35,28 @@ export function Menu() {
     };
   }, []);
 
-
   return (
-    <nav className={`navbar navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`}>
-      
-      <div className="container-fluid">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"> </span>
-          </button>
-        </div>
+    <Navbar collapseOnSelect className={`navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000 }}>
+      <Navbar.Header>
+        <Navbar.Toggle />
+      </Navbar.Header>
 
-        <div
-          id="bs-example-navbar-collapse-1"
-          className="navbar-collapse collapse"
-        >
-          <ul className="nav navbar-nav">
-            <li className="active">
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="about.html">Acerca de</a>
-            </li>
-            <li>
-              <a href="single.html">Contacto</a>
-            </li>
-            <li>
-              <a href="blog.html">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <Navbar.Collapse className='mx-auto'>
+        <Nav>
+          <NavItem href="#" eventKey={1}>
+            Inicio
+          </NavItem>
+          <NavItem href="#servicios" eventKey={2}>
+            Servicios
+          </NavItem>
+          <NavItem href="#skills" eventKey={3}>
+            Skills
+          </NavItem>
+          <NavItem href="#proyectos" eventKey={4}>
+            Proyectos
+          </NavItem>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }

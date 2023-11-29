@@ -1,5 +1,5 @@
 import { Menu } from "./Menu";
-import mi from "../assets/images/mi.jpeg";
+import mi from "../assets/images/mi.jpg";
 import '../assets/css/header.css'
 export function Header() {
  // const parallaxSpeed = 2; // Puedes ajustar el valor según sea necesario

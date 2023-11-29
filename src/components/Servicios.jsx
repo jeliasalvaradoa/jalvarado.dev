@@ -2,7 +2,7 @@ export function Servicios() {
     
     return (
         <>
-        <div className="row section topspace">
+        <div id="servicios" className="row section topspace">
         <div className="col-md-12">
             <p className="lead text-center text-muted">Creando experiencias web asombrosas.
                 Bienvenido a mi portafolio. Soy un apasionado desarrollador web... </p>

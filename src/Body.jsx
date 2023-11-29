@@ -1,6 +1,7 @@
 import { Servicios } from "./components/Servicios"
 import { Skills } from "./components/Skills"
 import { Proyectos } from "./components/Proyectos"
+
 export function Body() {
     
     return (

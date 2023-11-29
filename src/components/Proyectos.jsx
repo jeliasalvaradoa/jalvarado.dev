@@ -3,13 +3,14 @@ import Parallax from '../assets/images/parallax.png'
 import PlatziFood from '../assets/images/Platzi-Food.png'
 import Clonf from '../assets/images/clonf.png'
 import Portafolio from '../assets/images/portafolio.png'
+
 //import S1 from '../assets/images/s1.jpg'
 
 export function Proyectos() {
     
     return (
         <>
-        <div className="row section recentworks topspace">
+        <div id='proyectos' className="row section recentworks topspace">
 			
         <h2 className="section-title"><span>Proyectos</span></h2>
         
@@ -23,7 +24,7 @@ export function Proyectos() {
                     </span>
                     <span className="title">Tienda Online- Api Rest</span>
                 </a>
-                <span className="details"><a href="https://api-tienda.onrender.com/">Api Rest</a> | <a href="https://api-tienda.onrender.com/">Node.js</a> | <a href="https://api-tienda.onrender.com/">JavaScript</a></span>
+                <span className="details"><a href="https://api-tienda.onrender.com/">Postgres</a> | <a href="https://api-tienda.onrender.com/">Node.js</a> | <a href="https://api-tienda.onrender.com/">JavaScript</a> | <a href="https://api-tienda.onrender.com/">Docker</a></span>
                 <h4></h4>
                 <p></p>
             </div>

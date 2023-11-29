@@ -1,3 +1,4 @@
+import '../assets/css/footer.css'
 export function Footer() {
     
      return (
@@ -20,9 +21,9 @@ export function Footer() {
                     <h3 className="widget-title">Sigueme</h3>
                     <div className="widget-body">
                         <p className="follow-me-icons">
-                            <a href=""><i className="fa fa-twitter fa-2"></i></a>
-                            <a href=""><i className="fa fa-dribbble fa-2"></i></a>
                             <a href=""><i className="fa fa-github fa-2"></i></a>
+                            <a href=""><i className="fa fa-linkedin fa-2"></i></a>
+                            <a href=""><i className="fa fa-instagram fa-2"></i></a>
                             <a href=""><i className="fa fa-facebook fa-2"></i></a>
                         </p>
                     </div>
