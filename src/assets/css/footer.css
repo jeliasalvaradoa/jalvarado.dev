@@ -1,0 +1,20 @@
+#footer {
+    background: #232323;
+    padding: 30px 0 0 0;
+    font-size: 12px;
+    color: #999;
+  }
+  #footer a {
+    color: #ccc;
+  }
+  #footer a:hover {
+    color: #fff;
+  }
+  #footer h3.widget-title {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    color: #ccc;
+    margin: 0 0 20px;
+  }
+ 
