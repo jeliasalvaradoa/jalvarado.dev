@@ -4,12 +4,12 @@ export function Footer() {
     <footer id="footer">
       <div className="container">
         <div className="row">
-          <div className="col-md-3 widget">
+          <div className="col-md-3 col-xs-12 mb-4  widget">
             <h3 className="widget-title">Contacto</h3>
-            <div className="widget-body">
+            <div className="widget-body mb-4 ">
               <p>
                 Contáctame para iniciar tu proyecto de desarrollo web y haré que
-                tu visión se vuelva realidad. <br/>
+                tu visión se vuelva realidad. <br />
                 <a href="mailto:#">josealvarado30@hotmail.com</a>
                 <br></br>{" "}
               </p>
@@ -18,9 +18,9 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="col-md-3 widget">
+          <div className="col-md-3 col-xs-12 widget">
             <h3 className="widget-title">Sigueme</h3>
-            <div className="widget-body">
+            <div className="widget-body mb-4 ">
               <p className="follow-me-icons">
                 <a href="https://github.com/jeliasalvaradoa">
                   <i className="fa fa-github fa-2"></i>
@@ -39,7 +39,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="col-md-3 widget">
+          <div className="col-md-3 col-xs-12 widget">
             <h3 className="widget-title">Portafolio</h3>
             <div className="widget-body">
               <p>
@@ -58,26 +58,25 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="col-md-3 widget">
+          <div className="col-md-3 col-xs-12widget">
             <h3 className="widget-title">SkillS</h3>
-            <div className="widget-body">
-            <ul>
-    <li>HTML</li>
-    <li>Javascript</li>
-    <li>CSS</li>
-    <li>Node.js</li>
-    <li>React.js</li>
-    <li>Next.js</li>
-    <li>WordPress</li>
-    <li>PostgreSQL</li>
-    <li>MySQL</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>Docker</li>
-    <li>Bootstrap</li>
-    <li>Tailwind CSS</li>
-</ul>
-
+            <div className="widget-body mb-4 ">
+              <ul>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>Node.js</li>
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>WordPress</li>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Docker</li>
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+              </ul>
             </div>
           </div>
         </div>
