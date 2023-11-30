@@ -35,6 +35,7 @@ export function Footer() {
                   <i className="fa fa-facebook fa-2"></i>
                 </a>
               </p>
+              <br/>
             </div>
           </div>
 
@@ -60,12 +61,23 @@ export function Footer() {
           <div className="col-md-3 widget">
             <h3 className="widget-title">SkillS</h3>
             <div className="widget-body">
-              <p>
-              HTML-JAVASCRIPT-CSS-NODEJS REACTJS-NEXTJS-WORDPRESS POSTGRES-MYSQL-
-              GIT-GITHUB-DOCKER-BOOTSTRAP-TAILWINDCSS.
-                
-                <br/>
-              </p>
+            <ul>
+    <li>HTML</li>
+    <li>Javascript</li>
+    <li>CSS</li>
+    <li>Node.js</li>
+    <li>React.js</li>
+    <li>Next.js</li>
+    <li>WordPress</li>
+    <li>PostgreSQL</li>
+    <li>MySQL</li>
+    <li>Git</li>
+    <li>GitHub</li>
+    <li>Docker</li>
+    <li>Bootstrap</li>
+    <li>Tailwind CSS</li>
+</ul>
+
             </div>
           </div>
         </div>
