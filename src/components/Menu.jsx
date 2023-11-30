@@ -36,23 +36,23 @@ export function Menu() {
   }, []);
 
   return (
-    <Navbar collapseOnSelect className={`navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000 }}>
+    <Navbar collapseOnSelect className={`navbar-collapse nabvar-nav navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000 }}>
       <Navbar.Header>
         <Navbar.Toggle />
       </Navbar.Header>
 
-      <Navbar.Collapse >
-        <Nav className="mr-auto">
-          <NavItem href="#" eventKey={1}>
+      <Navbar.Collapse className='navbar-collapse nabvar-nav'>
+        <Nav className='navbar-collapse nabvar-nav'>
+          <NavItem className='navbar-collapse nabvar-nav' href="#" eventKey={1}>
             Inicio
           </NavItem>
-          <NavItem href="#servicios" eventKey={2}>
+          <NavItem className='navbar-collapse nabvar-nav' href="#servicios" eventKey={2}>
             Servicios
           </NavItem>
-          <NavItem href="#skills" eventKey={3}>
+          <NavItem className='navbar-collapse nabvar-nav' href="#skills" eventKey={3}>
             Skills
           </NavItem>
-          <NavItem href="#proyectos" eventKey={4}>
+          <NavItem className='navbar-collapse nabvar-nav' href="#proyectos" eventKey={4}>
             Proyectos
           </NavItem>
         </Nav>
