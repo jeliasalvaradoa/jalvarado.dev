@@ -3,6 +3,7 @@ import Parallax from '../assets/images/parallax.png'
 import PlatziFood from '../assets/images/Platzi-Food.png'
 import Clonf from '../assets/images/clonf.png'
 import Portafolio from '../assets/images/portafolio.png'
+import Tictactoe from '../assets/images/Tic-tac-toe.png'
 
 //import S1 from '../assets/images/s1.jpg'
 
@@ -22,7 +23,7 @@ export function Proyectos() {
                         <img src={Tienda} alt="Api Tienda"/>
                         <span className="cover"><span className="more">Ver &rarr;</span></span>
                     </span>
-                    <span className="title">Tienda Online- Api Rest</span>
+                    <span className="title">Api Rest - Tienda Online</span>
                 </a>
                 <span className="details"><a href="https://api-tienda.onrender.com/">Postgres</a> | <a href="https://api-tienda.onrender.com/">Node.js</a> | <a href="https://api-tienda.onrender.com/">JavaScript</a> | <a href="https://api-tienda.onrender.com/">Docker</a></span>
                 <h4></h4>
@@ -35,7 +36,7 @@ export function Proyectos() {
                         <img src={Parallax} alt="Parallax"/>
                         <span className="cover"><span className="more">Ver &rarr;</span></span>
                     </span>
-                    <span className="title">Diseño- estilo parallax</span>
+                    <span className="title">Diseño - Estilo parallax</span>
                 </a>
                 <span className="details"><a href="https://jeliasalvaradoa.github.io/parallax/">Html</a> | <a href="https://jeliasalvaradoa.github.io/parallax/">Css</a></span>
                 <h4></h4>
@@ -63,9 +64,8 @@ export function Proyectos() {
                     </span>
                     <span className="title">Testimonios - Clon Freecodecamp</span>
                 </a>
-                <span className="details"><a href="https://jeliasalvaradoa.github.io/free-code-camp-clon-testimonio/">Html</a> | <a href="https://jeliasalvaradoa.github.io/free-code-camp-clon-testimonio/">React.js</a></span>
-                <h4></h4>
-                <p></p>
+                <span className="details"><a href="https://jeliasalvaradoa.github.io/free-code-camp-clon-testimonio/">Html</a> | <a href="https://jeliasalvaradoa.github.io/free-code-camp-clon-testimonio/">React</a></span>
+                
             </div>
             
             <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -82,14 +82,14 @@ export function Proyectos() {
             </div>
 
             <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <a className="thumbnail" href="sidebar-right.html">
+                <a className="thumbnail" href="https://tic-tac-toe-eta-dusky.vercel.app/">
                     <span className="img">
-                        <img src={PlatziFood} alt="S2"/>
+                        <img src={Tictactoe} alt="S2"/>
                         <span className="cover"><span className="more">Ver &rarr;</span></span>
                     </span>
-                    <span className="title">Lorem studios - interior and patio design</span>
+                    <span className="title">Tic-tac-toe - Juego</span>
                 </a>
-                <span className="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
+                <span className="details"><a href="">Vite + React</a> | <a href="">Node.js</a></span>
                 <h4></h4>
                 <p></p>
             </div>
