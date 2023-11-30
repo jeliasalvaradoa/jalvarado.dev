@@ -58,7 +58,7 @@ export function Footer() {
           </div>
 
           <div className="col-md-3 widget">
-            <h3 className="widget-title">Skill</h3>
+            <h3 className="widget-title">SkillS</h3>
             <div className="widget-body">
               <p>
               HTML-JAVASCRIPT-CSS-NODEJS REACTJS-NEXTJS-WORDPRESS POSTGRES-MYSQL-
