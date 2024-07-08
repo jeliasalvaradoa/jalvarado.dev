@@ -38,10 +38,16 @@ export function Menu() {
   }, []);
 
   return (
+<<<<<<< HEAD
     <Navbar collapseOnSelect className={`navbar-collapse nabvar-nav navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000 }}>
       <Navbar.Header >
       { collapsed ? <Navbar.Toggle onClick={() => setCollapsed(!collapsed)} /> : <IconX className="navbar-toggle" onClick={() => setCollapsed(!collapsed)}/>
           }
+=======
+    <Navbar collapseOnSelect className={`navbar-collapse nabvar-nav navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000; }}>
+      <Navbar.Header>
+        <Navbar.Toggle />
+>>>>>>> 7bce972440fdba81a38d55330cea78ad1a6b694d
       </Navbar.Header>
 
       <Navbar.Collapse className='navbar-collapse nabvar-nav'>
