@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Nav, NavItem, } from 'react-bootstrap';
+import { IconX } from './IconX';
 import '../assets/css/menu.css';
 
 export function Menu() {
-  const [isSticky, setIsSticky] = useState(false);
+  const [isSticky, setIsSticky] = useState(false)
+  const [collapsed, setCollapsed] = useState(true)
 
   useEffect(() => {
     const myNav = document.querySelector('.navbar-sticky');
@@ -37,8 +39,9 @@ export function Menu() {
 
   return (
     <Navbar collapseOnSelect className={`navbar-collapse nabvar-nav navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000 }}>
-      <Navbar.Header>
-        <Navbar.Toggle />
+      <Navbar.Header >
+      { collapsed ? <Navbar.Toggle onClick={() => setCollapsed(!collapsed)} /> : <IconX className="navbar-toggle" onClick={() => setCollapsed(!collapsed)}/>
+          }
       </Navbar.Header>
 
       <Navbar.Collapse className='navbar-collapse nabvar-nav'>
