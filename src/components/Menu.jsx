@@ -36,7 +36,7 @@ export function Menu() {
   }, []);
 
   return (
-    <Navbar collapseOnSelect className={`navbar-collapse nabvar-nav navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000 width: 100% }}>
+    <Navbar collapseOnSelect className={`navbar-collapse nabvar-nav navbar-default navbar-sticky ${isSticky ? 'stick' : ''}`} style={{ zIndex: 1000; }}>
       <Navbar.Header>
         <Navbar.Toggle />
       </Navbar.Header>
