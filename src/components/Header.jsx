@@ -11,7 +11,7 @@ export function Header() {
         className="parallax"
       >
         <h1 id="logo" className="text-center">
-          <img className="img-circle" src={mi} alt="" />
+          <img className="img-circle" src={mi} alt="foto" />
           <span className="title">José Alvarado</span>
           <span className="tagline">
             Desarrollador FullStack <br />

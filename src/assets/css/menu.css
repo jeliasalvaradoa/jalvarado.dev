@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     opacity: .85;
-      width: 100%
+    width: 100%;
   }
   .navbar-collapse {
     -webkit-border-radius: 0;
@@ -25,6 +25,7 @@
     font-family: "Open sans", Helvetica, Arial, sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+    width: 100%;
   }
   .navbar-collapse .navbar-nav {
     float: none;
